@@ -1583,7 +1583,7 @@ function generateOverallAssessment() {
 
 
     categoryAssessment.textContent =
-        "This is an educational screening summary, not a medical diagnosis.";
+        "This educational project does not replace consulting a specialist doctor.";
 }
 
 
@@ -2245,7 +2245,7 @@ function generateMealPlan() {
         );
 
         meals.push(
-            "This meal plan is general educational information and is not a therapeutic diet."
+            "This meal plan is general information ."
         );
     }
 
