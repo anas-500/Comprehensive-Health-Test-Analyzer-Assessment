@@ -66,14 +66,14 @@ const tests = [
         id: "hemoglobin",
         name: "Hemoglobin",
         male: [13, 18],
-        female: [12, 16],
+        female: [11.5, 15.5],
         unit: "g/dL"
     },
 
     {
         id: "wbc",
         name: "WBC",
-        low: 4.5,
+        low: 4.0,
         high: 11,
         unit: "×10³/µL"
     },
@@ -82,7 +82,7 @@ const tests = [
         id: "rbc",
         name: "RBC",
         male: [4.2, 5.7],
-        female: [3.8, 5.1],
+        female: [4.10, 5.10],
         unit: "×10⁶/µL"
     },
 
@@ -90,7 +90,7 @@ const tests = [
         id: "platelets",
         name: "Platelets",
         low: 150,
-        high: 400,
+        high: 450,
         unit: "×10³/µL"
     },
 
@@ -98,7 +98,7 @@ const tests = [
         id: "hematocrit",
         name: "Hematocrit",
         male: [40, 55],
-        female: [36, 48],
+        female: [35.0, 47.0],
         unit: "%"
     },
 
@@ -106,7 +106,7 @@ const tests = [
         id: "mcv",
         name: "MCV",
         low: 79,
-        high: 95,
+        high: 100,
         unit: "fL"
     },
 
@@ -114,7 +114,7 @@ const tests = [
         id: "neutrophils",
         name: "Neutrophils",
         low: 40,
-        high: 70,
+        high: 75,
         unit: "%"
     },
 
@@ -130,7 +130,7 @@ const tests = [
         id: "glucose",
         name: "Fasting Blood Glucose",
         low: 70,
-        high: 99,
+        high: 105,
         unit: "mg/dL",
         special: "fastingGlucose"
     },
@@ -147,7 +147,7 @@ const tests = [
         id: "ldl",
         name: "LDL",
         low: 0,
-        high: 99,
+        high: 130,
         unit: "mg/dL",
         special: "ldl"
     },
@@ -171,7 +171,7 @@ const tests = [
         id: "creatinine",
         name: "Creatinine",
         male: [0.74, 1.35],
-        female: [0.59, 1.04],
+        female: [0.59, 0.90],
         unit: "mg/dL"
     },
 
@@ -196,7 +196,7 @@ const tests = [
         id: "uricAcid",
         name: "Uric Acid",
         male: [3.5, 7.2],
-        female: [2.6, 6.0],
+        female: [2.4, 5.7],
         unit: "mg/dL"
     },
 
@@ -204,7 +204,7 @@ const tests = [
         id: "alt",
         name: "ALT",
         low: 4,
-        high: 36,
+        high: 34,
         unit: "U/L"
     },
 
@@ -251,8 +251,8 @@ const tests = [
     {
         id: "tsh",
         name: "TSH",
-        low: 0.4,
-        high: 4.8,
+        low: 0.27,
+        high: 4.20,
         unit: "mIU/L"
     },
 
@@ -267,7 +267,7 @@ const tests = [
     {
         id: "vitaminD",
         name: "Vitamin D",
-        low: 20,
+        low: 10,
         high: 50,
         unit: "ng/mL"
     },
